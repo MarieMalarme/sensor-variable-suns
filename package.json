@@ -1,0 +1,29 @@
+{
+  "name": "sensor-variable-font_iluminacion",
+  "version": "1.0.0",
+  "description": "Dar un uso semántico a las tipografías variables en interfaces gráficas, estableciendo una relación entre la propia tipografía y los datos recogidos por diferentes sensores. // Providing variable fonts with a semantic use in graphic interfaces to establish a relationship between typography and the data collected by different sensors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [
+    "Tipografía variable",
+    "Sensores",
+    "Diseño interactivo",
+    "Interfaz gráfica",
+    "Variable Font",
+    "Sensors",
+    "Interactive Design",
+    "Graphic Interface"
+  ],
+  "author": "Iván Huelves & Lourdes Marco <hi@sensorvariablefont.com> (http://sensorvariablefont.com)",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.0.0",
+    "serialport": "^9.0.4",
+    "socket.io": "^3.0.5"
+  }
+}

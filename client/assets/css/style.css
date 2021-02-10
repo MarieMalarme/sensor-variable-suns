@@ -1,0 +1,30 @@
+:root {
+  --weight: 100;
+}
+
+@font-face {
+  font-family: 'moon-sun';
+  src: url('../fonts/color-shapes.ttf') format('truetype-variations');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sun {
+  font-family: 'moon-sun';
+  font-variation-settings: 'wght' var(--weight);
+  font-size: 200px;
+  line-height: 20px;
+  position: absolute;
+}
